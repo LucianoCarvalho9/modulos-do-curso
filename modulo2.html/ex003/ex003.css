@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: randomfonts;
+  src: url(randomfonts/random_wednesday/Random\ Wednesday.ttf);
+}
+
+body {
+  background-image: linear-gradient(
+    to right,
+    #c4b1ae,
+    #b4ada3,
+    #bfb59e,
+    #cab7a2,
+    #858786
+  );
+}
+
+main {
+  margin: auto;
+  text-align: center;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px;
+}
+
+h1 {
+  font-family: "randomfonts", "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 1px;
+  color: #011120;
+  font-weight: normal;
+  box-shadow: 2px 1px 3px 3px rgba(36, 35, 35, 0.349);
+}
+
+h2 {
+  font-family: "randomfonts", "Times New Roman", Times, serif;
+  text-shadow: 1px 1px 1px;
+  color: #022f5a;
+  font-weight: normal;
+}
+
+p {
+  text-align: justify;
+  font-style: italic;
+  text-indent: 30px;
+}
